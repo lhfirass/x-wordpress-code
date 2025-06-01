@@ -1,0 +1,523 @@
+/**** checkbox */
+
+:root {
+    --expcod-main-color: #aa2e62;
+}
+
+.checkbox-ios {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+    position: relative;
+    vertical-align: middle;
+    font-size: 14px;
+    user-select: none;
+}
+
+.checkbox-ios .checkbox-ios-switch {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 56px;
+    height: 28px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 25%/50%;
+    vertical-align: top;
+    background: #eee;
+    transition: .2s;
+}
+
+.checkbox-ios .checkbox-ios-switch:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    transition: .15s;
+}
+
+.checkbox-ios input[type=checkbox] {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox-ios input[type=checkbox]:not(:disabled):active+.checkbox-ios-switch:before {
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, .3);
+}
+
+.checkbox-ios input[type=checkbox]:checked+.checkbox-ios-switch {
+    background: #2196F3;
+}
+
+.checkbox-ios input[type=checkbox]:checked+.checkbox-ios-switch:before {
+    transform: translateX(28px);
+}
+
+
+/* Hover */
+
+.checkbox-ios input[type="checkbox"]:not(:disabled)+.checkbox-ios-switch {
+    cursor: pointer;
+    border-color: rgba(0, 0, 0, .3);
+}
+
+
+/* Disabled */
+
+.checkbox-ios input[type=checkbox]:disabled+.checkbox-ios-switch {
+    filter: grayscale(70%);
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.checkbox-ios input[type=checkbox]:disabled+.checkbox-ios-switch:before {
+    background: #eee;
+}
+
+
+/* Focus */
+
+.checkbox-ios.focused .checkbox-ios-switch:before {
+    box-shadow: inset 0px 0px 4px #ff5623;
+}
+
+.inside {}
+
+.woodokan-nav-list {
+    margin: 0;
+}
+
+.woodokan-nav-list li {
+    padding: 10px 10px;
+}
+
+.woodokan-nav-list li.active {
+    background: #ffffff94;
+    border-left: 7px solid #009688;
+}
+
+.woodokan-nav-list span {
+    margin: 0 5px;
+}
+
+.woodokan-nav-list a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.form-table {
+    display: none;
+}
+
+.postbox {
+    box-shadow: 0px 0px 6px #0000002b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(droidarabickufi/DroidKufi-Regular.ttf) format('truetype');
+}
+
+.woodokan-custom-dash {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+[dir=rtl] .woodokan-custom-dash {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.woodokan-custom-dash .woodokan-aside,
+.woodokan-custom-dash .woodokan-content {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 5%);
+    border: 1px solid #e5e5e5;
+}
+
+.woodokan-custom-dash .woodokan-aside {
+    position: sticky;
+    top: 113px;
+}
+
+.woodokan-custom-dash .woodokan-aside ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 8px 17px;
+    display: block;
+    color: #a8a8a8;
+}
+
+.woodokan-custom-dash .woodokan-aside ul li a.active {
+    color: #009688;
+    border-right: 5px solid #009688;
+    background: #00000003;
+}
+
+.woodokan-custom-dash .woodokan-aside ul {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.woodokan-custom-dash .woodokan-content {}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card {}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-heading {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body {
+    padding: 20px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field {
+    width: 100%;
+    display: flex;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-toggle {
+    width: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-right: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+[dir=rtl] .woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-toggle {
+    border-left: 1px solid #e5e5e5;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-toggle span {
+    transition: transform .3s ease-in-out;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-toggle span.rolled {
+    transform: rotate(-180deg);
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-heading {
+    width: 70%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: move;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field .field-activate {
+    width: 20%;
+    padding: 20px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item .field-config-body {
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-top-color: transparent;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item .field-config-body input[type=text] {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    padding: 10px 15px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item {
+    background: #fff;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item .field-config-body select {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+    padding: 10px 5px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item .field-config-body label {
+    margin-bottom: 20px;
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-field-item {
+    margin-bottom: 10px;
+}
+
+.woodokan-custom-dash .woodokan-content .woodokan-card .woodokan-card-body .woodokan-inputs-editor {
+    padding: 10px;
+    background: #80808012;
+}
+
+.woodokan-card-footer {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+switch:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #2271b138;
+    box-shadow: 0 0px 5px #0000004d;
+    transition: .15s;
+}
+
+.checkbox-ios input[type=checkbox]:checked+.checkbox-ios-switch:before {
+    transform: translateX(28px);
+    background: var(--expcod-main-color);
+}
+
+.checkbox-ios .checkbox-ios-switch {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 48px;
+    height: 21px;
+    border-radius: 25%/50%;
+    vertical-align: top;
+    background: #eee;
+    transition: .2s;
+    border: none;
+}
+
+.checkbox-ios .checkbox-ios-switch:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0px 5px #0000004d;
+    transition: .15s;
+}
+
+.checkbox-ios input[type=checkbox]:checked+.checkbox-ios-switch {
+    background: #eee;
+}
+
+.button-hero.wooodkan-button-active {
+    background: var(--expcod-main-color);
+    color: white;
+    border: none;
+    font-weight: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-weight: normal;
+}
+
+.button-hero.wooodkan-button-active:hover,
+.button-hero.wooodkan-button-active:focus {
+    background: var(--expcod-main-color);
+    color: white;
+    border: none;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.button-hero.wooodkan-button-not-active {
+    background: transparent;
+    color: var(--expcod-main-color);
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.button-hero.wooodkan-button-not-active:hover,
+.button-hero.wooodkan-button-not-active:focus,
+.button-hero.wooodkan-button-not-active:active {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: normal;
+}
+
+.woodokan-settings-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff8f;
+    z-index: 100;
+    text-align: center;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.woodokan-settings-overlay span {}
+
+.alertify-notifier {
+    color: white;
+    text-align: center;
+    background: green !important;
+}
+
+.styling-container {
+    background: #f6f6f6;
+    padding: 10px;
+}
+
+.styling-container .styling-section-card {
+    background: white;
+    border: 1px solid #e5e5e5;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.styling-container .styling-section-card .styling-section-card-header {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.styling-container .styling-section-card .styling-section-card-header h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.styling-container .styling-section-card .styling-section-card-body {
+    padding: 20px;
+}
+
+.styling-container .styling-section-card .styling-section-card-body .style-element {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-p-10 {
+    padding: 10px;
+}
+
+.wd-p-20 {
+    padding: 20px;
+}
+
+.wd-title-1 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.woodokan-inner-dark-wrapper {
+    background-color: #f6f6f6;
+}
+
+.woodokan-card {
+    background-color: white;
+    border: 1px solid #e5e5e5;
+}
+
+.woodokan-card .woodokan-card-header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.wd-input-group label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block
+}
+
+.wd-input-group input {
+    padding: 5px 10px;
+    width: 100%
+}
+
+.wd-checkbox-list .wd-checkbox {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 1px solid #e5e5e5;
+}
+
+.wd-checkbox-list .wd-checkbox>span {
+    font-size: 16px;
+}
+
+.upgrade-woodokan {
+    text-align: center;
+}
+
+.upgrade-woodokan p {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.upgrade-woodokan button {
+    padding: 20px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px #00000026;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.upgrade-woodokan button:hover {
+    box-shadow: 0px 0px 0px 0px #00000026;
+}
+
+.upgrade-woodokan .upgrad-button-woodokan {
+    background-color: #aa2e62;
+}
+
+.upgrade-woodokan .contact-support-btn-woodokan {
+    background: #607d8b;
+}

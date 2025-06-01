@@ -1,0 +1,39 @@
+.wp-submenu-wrap a[href="admin.php?page=wd_easyorder_options"]::after {
+    content: "";
+    width: 23px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    /* background-image: url(../images/logo.svg); */
+    background-size: cover;
+    top: 1px;
+    margin-left: 10px;
+    z-index: 100;
+}
+
+[dir=rtl] .wp-submenu-wrap a[href="admin.php?page=wd_easyorder_options"]::after {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.wp-submenu-wrap a[href="admin.php?page=wd_easyorder_options"] {
+    position: relative;
+}
+
+.wp-submenu-wrap a[href="admin.php?page=wd_easyorder_options"] {
+    font-weight: normal !important;
+    letter-spacing: 1px !important;
+}
+
+.wdk-upgrade-to-pro:before {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: -9px;
+}
+
+.wdk-upgrade-to-pro {
+    height: 100%;
+    color: gold;
+}

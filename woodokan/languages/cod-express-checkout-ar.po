@@ -1,0 +1,710 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: cod-express-checkout v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2023-01-09 13:43+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/plugin-pages/components/product-metabox.php:28
+msgid "Show Express checkout form"
+msgstr "إظهار خانات الطلب السريع"
+
+#: admin/plugin-pages/components/product-metabox.php:30
+msgid "Disable"
+msgstr "غيل مفعل"
+
+#: admin/plugin-pages/components/product-metabox.php:31
+msgid "Enable"
+msgstr "مفعل"
+
+#: admin/plugin-pages/components/product-metabox.php:34
+#: classes/version-2.php:56
+msgid "Shipping price"
+msgstr "ثمن الشحن"
+
+#: admin/plugin-pages/components/product-metabox.php:38
+msgid "Checkout notice"
+msgstr "ملحوضة"
+
+#: admin/plugin-pages/main.php:3
+msgid "First name"
+msgstr "الإسم الأول"
+
+#: admin/plugin-pages/main.php:4
+msgid "Last Name"
+msgstr "الإسم الاخير"
+
+#: admin/plugin-pages/main.php:5
+msgid "Adress"
+msgstr "العنوان"
+
+#: admin/plugin-pages/main.php:6 admin/plugin-pages/sections/shipping.php:15
+msgid "City"
+msgstr "المدينة"
+
+#: admin/plugin-pages/main.php:7
+msgid "Shipping Locations with price"
+msgstr "مناطق الشحن مع ثمن التوصيل"
+
+#: admin/plugin-pages/main.php:8
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: admin/plugin-pages/main.php:9
+msgid "Phone"
+msgstr "الهاتف"
+
+#: admin/plugin-pages/main.php:10
+msgid "Country"
+msgstr "الدولة"
+
+#: admin/plugin-pages/main.php:11
+msgid "Customer note"
+msgstr "ملاحظة الزبون"
+
+#: admin/plugin-pages/main.php:12
+msgid "Postal code"
+msgstr "الرمز البريدي"
+
+#: admin/plugin-pages/main.php:13
+msgid "Company"
+msgstr "الشركة"
+
+#: admin/plugin-pages/main.php:21
+msgid "Free trial from Woodokan plugin"
+msgstr "الفترة التجريبية المجانية مقدمة من وودكان."
+
+#: admin/plugin-pages/main.php:31
+msgid "Checkout fields configuration"
+msgstr "إعدادات حقول الإدخال"
+
+#: admin/plugin-pages/main.php:34
+msgid "Styling"
+msgstr "التنسيق"
+
+#: admin/plugin-pages/main.php:37
+msgid "Shipping locations"
+msgstr "مناطق الشحن"
+
+#: admin/plugin-pages/main.php:40
+msgid "General settings"
+msgstr "إعدادات عامة"
+
+#: admin/plugin-pages/main.php:44
+msgid "Technical support"
+msgstr "الدعم التقني"
+
+#: admin/plugin-pages/main.php:76
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: admin/plugin-pages/sections/config.php:20
+msgid "Placeholder Text"
+msgstr "الإسم المساعد"
+
+#: admin/plugin-pages/sections/config.php:29
+msgid "Required"
+msgstr "مطلوب"
+
+#: admin/plugin-pages/sections/config.php:32
+msgid "Yes"
+msgstr "نعم"
+
+#: admin/plugin-pages/sections/config.php:33
+msgid "No"
+msgstr "لا"
+
+#: admin/plugin-pages/sections/config.php:40
+msgid "Field size"
+msgstr "حجم الحقل"
+
+#: admin/plugin-pages/sections/config.php:43
+msgid "Half Row"
+msgstr "نصف المساحة"
+
+#: admin/plugin-pages/sections/config.php:44
+msgid "Full Row"
+msgstr "عرض كامل"
+
+#: admin/plugin-pages/sections/import-shipping-locations.php:7
+msgid "Import shipping locations"
+msgstr "إستيراد مناطق الشحن"
+
+#: admin/plugin-pages/sections/import-shipping-locations.php:16
+msgid "Import shipping  states"
+msgstr "إستيراد مناطق الشحن"
+
+#: admin/plugin-pages/sections/pixels.php:10
+msgid "Facebook Pixel"
+msgstr "فيسبوك بيكسل"
+
+#: admin/plugin-pages/sections/pixels.php:14
+msgid "Pixel id"
+msgstr ""
+
+#: admin/plugin-pages/sections/pixels.php:16
+msgid ""
+"Add a piece of code to your website that lets you measure, optimise and "
+"build audiences for your ad campaigns."
+msgstr ""
+"أضِف رمزًا برمجيًا لموقعك على الويب يتيح لك قياس جماهير حملاتك الإعلانية "
+"وتحسينها وإنشاءها."
+
+#: admin/plugin-pages/sections/pixels.php:18
+msgid "View page"
+msgstr "زيارة الموقع"
+
+#: admin/plugin-pages/sections/pixels.php:19
+msgid "Add to cart"
+msgstr "إضافة إلى السلة"
+
+#: admin/plugin-pages/sections/pixels.php:20 classes/expcod_front.class.php:181
+msgid "Place order"
+msgstr "إتمام الطلب"
+
+#: admin/plugin-pages/sections/pixels.php:23
+msgid "How to install Fcaebook Pixel"
+msgstr "كيفية تثبيت فيسبوك بيكسل"
+
+#: admin/plugin-pages/sections/redirect.php:8
+msgid "Thank you page settings"
+msgstr "إعدادات صفحة الشكر"
+
+#: admin/plugin-pages/sections/redirect.php:15
+msgid "One step"
+msgstr ""
+
+#: admin/plugin-pages/sections/redirect.php:16
+msgid "Two steps"
+msgstr ""
+
+#: admin/plugin-pages/sections/redirect.php:22
+msgid "Redirection method"
+msgstr "إعادة التوجيه بعد الطلب"
+
+#: admin/plugin-pages/sections/redirect.php:24
+msgid "Woocommerce order received page"
+msgstr "صفحة الشكر الخاصة بووركوميرس"
+
+#: admin/plugin-pages/sections/redirect.php:25
+msgid "Custom URL"
+msgstr "رابط صفحة مخصصة"
+
+#: admin/plugin-pages/sections/redirect.php:31
+msgid "URL"
+msgstr "الرابط"
+
+#: admin/plugin-pages/sections/redirect.php:39
+msgid "Main settings"
+msgstr "الإعدادات"
+
+#: admin/plugin-pages/sections/redirect.php:44
+msgid "Form display"
+msgstr "ظهور الفورم"
+
+#: admin/plugin-pages/sections/redirect.php:46
+msgid "All Products"
+msgstr "كل المنتجات"
+
+#: admin/plugin-pages/sections/redirect.php:47
+msgid "Activate manually"
+msgstr "التفعيل يدويا لكل منتج"
+
+#: admin/plugin-pages/sections/sheets.php:10
+msgid "Sheet link"
+msgstr "ربط Google sheet"
+
+#: admin/plugin-pages/sections/sheets.php:15
+msgid "Express Editor"
+msgstr "حساب الربط"
+
+#: admin/plugin-pages/sections/sheets.php:21
+msgid "Spread Sheet URL"
+msgstr "رابط جدول البيانات"
+
+#: admin/plugin-pages/sections/sheets.php:27
+msgid "sheet pege name"
+msgstr "إسم الصفحة"
+
+#: admin/plugin-pages/sections/sheets.php:38
+msgid "Woocommerce order"
+msgstr "البيانات"
+
+#: admin/plugin-pages/sections/sheets.php:45
+msgid "Unselected data"
+msgstr "اليانات الغير المرسلة"
+
+#: admin/plugin-pages/sections/sheets.php:59
+msgid "Selected data"
+msgstr "البيانات المرسلة"
+
+#: admin/plugin-pages/sections/shipping.php:7
+msgid "Shipping locations list"
+msgstr "لائحة مناطق الشحن"
+
+#: admin/plugin-pages/sections/shipping.php:18
+msgid "Price"
+msgstr "التكلفة"
+
+#: admin/plugin-pages/sections/shipping.php:21
+#: admin/plugin-pages/sections/shipping.php:72
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/plugin-pages/sections/shipping.php:32
+msgid "Add shipping location"
+msgstr "إضافة منطقة شحن"
+
+#: admin/plugin-pages/sections/shipping.php:33
+msgid "Import shipping location"
+msgstr "إستيراد مناطق الشحن"
+
+#: admin/plugin-pages/sections/stylings.php:7
+msgid "Form stylings"
+msgstr "تنسيقات الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:11
+msgid "Form minimum width"
+msgstr "عرض حجم الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:15
+#: admin/plugin-pages/sections/stylings.php:117
+msgid "Border radius (px)"
+msgstr "إنحناء الزوايا (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:19
+#: admin/plugin-pages/sections/stylings.php:202
+msgid "Margin top (px)"
+msgstr "الهامش في الأعلى"
+
+#: admin/plugin-pages/sections/stylings.php:23
+#: admin/plugin-pages/sections/stylings.php:198
+msgid "Margin bottom (px)"
+msgstr "الهامش في الأسفل (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:27
+msgid "Padding (px)"
+msgstr "الهامش الداخلي"
+
+#: admin/plugin-pages/sections/stylings.php:31
+msgid "From border color"
+msgstr "لون إطار الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:35
+msgid "Form title color"
+msgstr "لون عنوان الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:39
+msgid "Form background color"
+msgstr "لون خلفية الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:43
+msgid "Form title size"
+msgstr "حجم عنوان الفورم"
+
+#: admin/plugin-pages/sections/stylings.php:47
+msgid "Button text"
+msgstr "نص الزر"
+
+#: admin/plugin-pages/sections/stylings.php:51
+msgid "Form title"
+msgstr "حقول الإدخال"
+
+#: admin/plugin-pages/sections/stylings.php:55
+msgid "Quantity input"
+msgstr "خانة الكمية"
+
+#: admin/plugin-pages/sections/stylings.php:58
+#: admin/plugin-pages/sections/stylings.php:67
+#: admin/plugin-pages/sections/stylings.php:76
+#: admin/plugin-pages/sections/stylings.php:192
+msgid "invisible"
+msgstr "مخفي"
+
+#: admin/plugin-pages/sections/stylings.php:59
+#: admin/plugin-pages/sections/stylings.php:68
+#: admin/plugin-pages/sections/stylings.php:77
+#: admin/plugin-pages/sections/stylings.php:193
+msgid "visible"
+msgstr "مرئي"
+
+#: admin/plugin-pages/sections/stylings.php:64
+msgid "Order summary"
+msgstr "ملخص الطلب"
+
+#: admin/plugin-pages/sections/stylings.php:73
+msgid "Order summary default state"
+msgstr "الحالة الإفتراضية لملخص الطلب"
+
+#: admin/plugin-pages/sections/stylings.php:86
+msgid "Form inputs"
+msgstr "حقول الإدخال"
+
+#: admin/plugin-pages/sections/stylings.php:93
+#: admin/plugin-pages/sections/stylings.php:152
+#: admin/plugin-pages/sections/stylings.php:214
+msgid "Border color"
+msgstr "لون الإطار"
+
+#: admin/plugin-pages/sections/stylings.php:97
+msgid "Border color (onfocus)"
+msgstr "لون الإطار عند الضغط"
+
+#: admin/plugin-pages/sections/stylings.php:101
+#: admin/plugin-pages/sections/stylings.php:136
+msgid "Text color"
+msgstr "لون النص"
+
+#: admin/plugin-pages/sections/stylings.php:105
+#: admin/plugin-pages/sections/stylings.php:144
+msgid "Background color"
+msgstr "لون الخلفية"
+
+#: admin/plugin-pages/sections/stylings.php:109
+#: admin/plugin-pages/sections/stylings.php:156
+msgid "Height (px)"
+msgstr "الطول (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:113
+#: admin/plugin-pages/sections/stylings.php:164
+#: admin/plugin-pages/sections/stylings.php:218
+msgid "Border width (px)"
+msgstr "عرض خط الإطار (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:121
+msgid "Placeholder size (px)"
+msgstr "حجم النص التوضيحي (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:125
+msgid "Border width (px) (onfocus) "
+msgstr "حجم خط الإطار عند الضغط (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:132
+msgid "Buy now button"
+msgstr "زر الشراء"
+
+#: admin/plugin-pages/sections/stylings.php:140
+msgid "Text color (onhover)"
+msgstr "لون النص عند (عند التمرير)"
+
+#: admin/plugin-pages/sections/stylings.php:148
+msgid "Background color (hover)"
+msgstr "لون الخلفية عند (عند التمرير)"
+
+#: admin/plugin-pages/sections/stylings.php:160
+msgid "Font size (px)"
+msgstr "حجم النص (بالبكسل)"
+
+#: admin/plugin-pages/sections/stylings.php:172
+msgid "Labels"
+msgstr "عناوين الحقول"
+
+#: admin/plugin-pages/sections/stylings.php:178
+msgid "Font weight"
+msgstr "حجم خط النص"
+
+#: admin/plugin-pages/sections/stylings.php:181
+msgid "Normal"
+msgstr "عادي"
+
+#: admin/plugin-pages/sections/stylings.php:182
+msgid "Lighter"
+msgstr "خفيف"
+
+#: admin/plugin-pages/sections/stylings.php:183
+msgid "Bold"
+msgstr "عريض"
+
+#: admin/plugin-pages/sections/stylings.php:184
+msgid "Bolder"
+msgstr "مركز جدا"
+
+#: admin/plugin-pages/sections/stylings.php:189
+msgid "Visible"
+msgstr "مرئي"
+
+#: admin/plugin-pages/sections/stylings.php:209
+msgid "Form"
+msgstr "إستمارة اطلب"
+
+#: admin/plugin-pages/sections/stylings.php:228
+msgid "Checkout form preview"
+msgstr "معاينة التنسيق"
+
+#: admin/plugin-pages/sections/stylings.php:237
+#: admin/plugin-pages/sections/stylings.php:238
+#: admin/plugin-pages/sections/stylings.php:241
+#: admin/plugin-pages/sections/stylings.php:242
+#: admin/plugin-pages/sections/stylings.php:245
+#: admin/plugin-pages/sections/stylings.php:246
+msgid "Example text"
+msgstr "الاسم المعروض"
+
+#: admin/plugin-pages/sections/upgrade.php:4
+msgid ""
+"Your woodokan 15 days trial has expired, and your account is now frozen, so "
+"you can’t access it. To pick up where you left off, just the button below "
+"and upgrade now."
+msgstr ""
+"لقد إنتهت الفترة التجريبية المقدمة من وودكان لذلك تم تجميد كل وضائف الإضافة ."
+"يمكنك الإستفاذة من مميزات الإضافة مدى الحياة من خلال الترقية إلى الخطة "
+"المدفوعة."
+
+#: admin/plugin-pages/sections/upgrade.php:5
+msgid "Get the plugin"
+msgstr "الحصول على الإضافة"
+
+#: admin/plugin-pages/sections/upgrade.php:6
+msgid "Contact support"
+msgstr "الدعم التقني"
+
+#: classes/expcod_admin.class.php:86
+msgid "Express cod checkout"
+msgstr "خانات الطلب السريع"
+
+#: classes/expcod_front.class.php:175
+msgid "Your order"
+msgstr "معلومات الطلب"
+
+#: classes/expcod_front.class.php:176 classes/version-2.php:79
+msgid "Total"
+msgstr "المجموع"
+
+#: classes/expcod_front.class.php:177
+msgid "Shipping"
+msgstr "ثمن الشحن"
+
+#: classes/expcod_front.class.php:178
+#: template/woocommerce/add-to-cart-form/quantity-input.php:28
+msgid "Quantity"
+msgstr "الكمية"
+
+#: classes/expcod_front.class.php:179
+msgid "Product price"
+msgstr "ثمن المنتج"
+
+#: classes/expcod_front.class.php:180
+msgid "Edit"
+msgstr "تعديل"
+
+#: classes/expcod_front.class.php:182
+msgid "Notice"
+msgstr "ملحوضة"
+
+#: classes/expcod_front.class.php:183
+msgid "Type"
+msgstr "النوع"
+
+#: classes/expcod_menu.class.php:28 classes/expcod_menu.class.php:29
+msgid "woodokan"
+msgstr ""
+
+#: classes/expcod_order.class.php:22 classes/expcod_order.class.php:426
+msgid "order placed successfully!"
+msgstr "تم إرسال الطلب بنجاح"
+
+#: classes/expcod_order.class.php:31 classes/expcod_order.class.php:436
+msgid "Sorry we can not process this order now , please try later"
+msgstr "عذرا ! لا يمكن معالجة هذا الطلب حاليا . أعد المحاولة لاحقا"
+
+#: classes/expcod_order.class.php:171
+msgid "product added to cart sucessfully"
+msgstr "تم إرسال الطلب بنجاح"
+
+#: classes/expcod_order.class.php:219
+msgid "Cannot add item to cart"
+msgstr "لم يتم إضافة المنتج لسلة المشتريات"
+
+#: classes/expcod_settings.class.php:120
+msgid "You are not allowed to update this option"
+msgstr "لا يمكنك القيام بهذا الإجراء"
+
+#: classes/expcod_settings.class.php:128
+msgid "Fields updated successfully !"
+msgstr "تم التعديل بنجاح!"
+
+#: classes/expcod_settings.class.php:134
+msgid "Fields are already updated!"
+msgstr "ليس هناك أي تغيير"
+
+#: classes/expcod_settings.class.php:144
+msgid "You are not allowed to update this due to security reasons"
+msgstr "لا يمكنك القيام بهذا الإجراء لدواعي أمنية"
+
+#: classes/expcod_validate.class.php:68 classes/expcod_validate.class.php:188
+msgid "This field is required"
+msgstr "هذا الحقل مطلوب"
+
+#: classes/expcod_validate.class.php:127
+msgid "Invalid phone"
+msgstr "رقم هاتف غير صالح"
+
+#: classes/expcod_validate.class.php:133
+msgid "Phone is less than 10"
+msgstr "رقم الهاتف أقل من 10 أرقام"
+
+#: classes/expcod_validate.class.php:143
+msgid "Invalid email"
+msgstr "البريد الإلكتروني غير صالح"
+
+#: classes/version-2.php:44
+msgid "Product"
+msgstr "المنتج"
+
+#: classes/version-2.php:177 classes/version-2.php:188
+msgid "Free shipping"
+msgstr "شحن مجاني"
+
+#: classes/version-2.php:293
+msgid "Placeholder"
+msgstr "الإسم المساعد"
+
+#: template/woocommerce/add-to-cart-form/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr " الكمية %s"
+
+#: template/woocommerce/add-to-cart-form/quantity-input.php:48
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "الكمية"
+
+#: template/woocommerce/add-to-cart-form/simple.php:138
+msgid "Buy now"
+msgstr "إشتري الآن"
+
+#: template/woocommerce/add-to-cart-form/variable.php:52
+msgid "This product is currently out of stock and unavailable."
+msgstr "المنتج غير متوفر حاليا."
+
+#: template/woocommerce/add-to-cart-form/variation.php:24
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr "عذرا , هذا المنتج غير متوفر حاليا يمكنك القيام بتحديد خيار آخر."
+
+#~ msgid "State"
+#~ msgstr "المنطقة"
+
+#~ msgid "Thank you page"
+#~ msgstr "صفحة الشكر"
+
+#~ msgid "Google sheets"
+#~ msgstr "Google sheets"
+
+#~ msgid "Pixels"
+#~ msgstr "البيكسل"
+
+#~ msgid "Label text"
+#~ msgstr "الاسم المعروض"
+
+#~ msgid "Express checkout"
+#~ msgstr "Express checkout"
+
+#~ msgid "Clear"
+#~ msgstr "حذف"
+
+#~ msgid "Customer informations"
+#~ msgstr "معلومات التوصيل"
+
+#~ msgid "Overview"
+#~ msgstr "نظرة عامة"
+
+#~ msgid ""
+#~ "\n"
+#~ "    COD Express checkout is a wordpress plugin for woocommerce based "
+#~ "stores that use Cash\n"
+#~ "    on delivery as a payment method  .\n"
+#~ "    It allows for faster checkout  than ever before. Woodokan express "
+#~ "checkout  will allow users to \n"
+#~ "    complete the checkout process without spending time moving to a "
+#~ "separate \n"
+#~ "    checkout page. After the user visits the product details page , the "
+#~ "checkout fields\n"
+#~ "    appear in stead of add to card button , allowing the user to complete "
+#~ "the purchase \n"
+#~ "    process right then and there. Advanced plugin settings allow you to "
+#~ "configure checkout form as well as \n"
+#~ "    stylings and thank you page so that you can activates some fields and "
+#~ "deactivate others ,\n"
+#~ "    change the look of the chcekout form and choose which page to be the "
+#~ "thank you page.."
+#~ msgstr ""
+#~ "\n"
+#~ "COD Express Checkout هي إضافة ووكوميرس تم تصميمها لتسهيل عملية طلب متجرك "
+#~ "الإلكتروني من خلال إظهار خانات الطلب في نفس صفحة المنتج وبذلك زيادة "
+#~ "مبيعاتك, تمكنك هذه الإضافة أيضا من تخصيص خانات الطلب التي تريد إضهارها في "
+#~ "صفحة المنتج و تنسيقها أيضا"
+
+#~ msgid "Fields"
+#~ msgstr "إعدادات حقول الإدخال "
+
+#~ msgid ""
+#~ "In the plugin's main page, you will be able to customize the informations "
+#~ "required by the client  to complete the purchase process, there you can "
+#~ "choose whatever information you want from the client such as phone "
+#~ "number, address, etc.\n"
+#~ "\t"
+#~ msgstr ""
+#~ "من خلال الإنتقال إلى صفحة الغضافة ستتمكن من تخصيص المعلومات المطلوبة \n"
+#~ "طرف العميل لإتمام عملية الشراء , هناك يمكنك إختيار ما توده من العميل من  "
+#~ "معلومات كرقم الهاتف و العنوان الخ ..."
+
+#~ msgid ""
+#~ "\n"
+#~ "\tHaving an elegant store with an attractive design that takes into "
+#~ "account the consistency of colors and the choice of font sizes with ease "
+#~ "of use undoubtedly contributes to drawing the attention of visitors and "
+#~ "encouraging them to buy from your store.\n"
+#~ "\tTherefore, this plugin provides you with a special section for "
+#~ "formatting, where you can customize the display of input fields by going "
+#~ "to the main page of the plugin > and then formatting.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\tتوفرك على متجر أنيق بتصميم جذاب يراعي تناسق الألوان و اختيار أحجام "
+#~ "الخطوط مع سهولة الإستخدام يساهم بال شك في لفت انتباه الزوار و تشجيعهم على "
+#~ "الشراء من متجرك . \n"
+#~ "لذلك توفر لك هذه الإضافة قسم خاص بالتنسيق حيث يمكنك تخصيص شكل عرض حقول "
+#~ "الغدخال من خلال الذهاب غلى الصفحة الرئيسية للاضافة ثم التنسيق \n"
+
+#~ msgid ""
+#~ "You can choose the page that appears to the customer when the purchase is "
+#~ "successful by going to the addition page and then placing the page link "
+#~ "in the field designated for it in the thank you page section."
+#~ msgstr ""
+#~ "يمكنك اختيار الصفحة التي تظهر للعميل عند نجاح ملية الشراء من خلال الذهاب "
+#~ "إلى صفحة الإضافة و من ثم وضع رابط الصفحة في الحقل المخصص لها في قسم صفحة "
+#~ "الشكر"
+
+#~ msgid "Fields configuration"
+#~ msgstr "إعدادات حقول الإدخال"
+
+#~ msgid "Tiktok"
+#~ msgstr "إعدادات Tiktok Pixel"
+
+#~ msgid "Customize Cod checkout form"
+#~ msgstr "إظهار خانات الطلب السريع"
+
+#~ msgid "Stylings & Css"
+#~ msgstr "التنسيق"
+
+#~ msgid "Page url"
+#~ msgstr "رابط الصفحة"
